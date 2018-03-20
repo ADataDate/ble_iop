@@ -1,0 +1,13 @@
+G04 Gerber job file.*
+%TF.FileFunction,JobInfo*%
+%TF.GenerationSoftware,Autodesk,EAGLE,8.6.3*%
+%TF.CreationDate,2018-03-03T20:44:34Z*%
+%TF.Part,Single*%
+%MOIN*%
+%TJ.B_Owner,Mary West <mwest.lazerade@gmail.com>*%
+%TJ.B_ID,OPT3001*%
+%TJ.B_LayerNum,2*%
+%TJ.B_Thickness,0.061811*%
+%TJ.B_Size_X,0.587500*%
+%TJ.B_Size_Y,0.800000*%
+M02*

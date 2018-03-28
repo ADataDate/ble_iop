@@ -1,0 +1,177 @@
+!SESSION 2018-02-23 19:43:25.539 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_92
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/mortzula/Workspace/ble_iop/Firmware -os linux -ws gtk -arch x86_64
+
+!ENTRY com.silabs.ss.platform.content.core 4 0 2018-02-23 19:43:34.319
+!MESSAGE Local timestamp file does not exist: /home/mortzula/SimplicityStudio_v4/offline/common/Simplicity_Studio_Terms_of_Use_and_Privacy_Statement.timestamp
+
+!ENTRY com.silabs.foundation.core_rcp 4 0 2018-02-23 19:43:46.269
+!MESSAGE Demo information file is empty at /home/mortzula/SimplicityStudio_v4/configuration/org.eclipse.osgi/679/0/.cp/demos/demos.xml
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-02-23 19:43:46.300
+!MESSAGE Unknown architecture(s) [EFR32MG13P832F512GM48+iar, EFR32MG13P932F512GM48+iar, EFR32MG13P932F512IM48+iar, EFR32MG13P832F512GM48+gcc, EFR32MG13P932F512GM48+gcc, EFR32MG13P932F512IM48+gcc] in framework flex
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-02-23 19:43:46.301
+!MESSAGE Unknown board 'BRD4165A' in framework flex
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-02-23 19:43:46.301
+!MESSAGE Unknown board 'BRD4165B' in framework flex
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-02-23 19:43:46.403
+!MESSAGE Unknown architecture(s) [efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[832]~flash[512k]~temp[i]~package[m]~pins[48]+iar, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[832]~flash[512k]~temp[i]~package[m]~pins[48]+gcc, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[932]~flash[512k]~temp[g]~package[m]~pins[48]+iar, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[932]~flash[512k]~temp[g]~package[m]~pins[48]+gcc, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[832]~flash[512k]~temp[g]~package[m]~pins[48]+iar, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[832]~flash[512k]~temp[g]~package[m]~pins[48]+gcc, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[932]~flash[512k]~temp[i]~package[m]~pins[48]+iar, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[932]~flash[512k]~temp[i]~package[m]~pins[48]+gcc] in framework ble
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-02-23 19:43:46.404
+!MESSAGE Unknown board 'BRD4105A' in framework ble
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-02-23 19:43:46.404
+!MESSAGE Unknown board 'BRD4165B' in framework ble
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-02-23 19:43:46.404
+!MESSAGE Unknown board 'BRD4169A' in framework ble
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-02-23 19:43:46.405
+!MESSAGE Unknown board 'BRD4169B' in framework ble
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-02-23 19:43:46.405
+!MESSAGE Unknown board 'BRD4305A' in framework ble
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-02-23 19:43:46.405
+!MESSAGE Unknown board 'BRD4305C' in framework ble
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-02-23 19:43:46.405
+!MESSAGE Unknown board 'BRD4305D' in framework ble
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-02-23 19:43:46.405
+!MESSAGE Unknown board 'BRD4305E' in framework ble
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-02-23 19:43:46.427
+!MESSAGE Unknown architecture(s) [EFR32BG13P632F512IM32+iar, EFR32BG13P632F512IM48+iar, EFR32BG14P532F256GM32+iar, EFR32BG14P532F256GM48+iar, EFR32BG14P632F256GM32+iar, EFR32BG14P632F256GM48+iar, EFR32BG14P632F256IM32+iar, EFR32BG14P632F256IM48+iar, EFR32BG14P732F256GM32+iar, EFR32BG14P732F256GM48+iar, EFR32BG14P733F256GM48+iar, EFR32FG13P231F512IM32+iar, EFR32FG13P231F512IM48+iar, EFR32FG14V132F256GM32+iar, EFR32FG14V132F256GM48+iar, EFR32MG12P433F1024GM68+iar, EFR32MG13P732F512IM32+iar, EFR32MG13P732F512IM48+iar, EFR32MG13P733F512IM48+iar, EFR32MG13P832F512GM48+iar, EFR32MG13P832F512IM48+iar, EFR32MG13P932F512GM48+iar, EFR32MG13P932F512IM48+iar, EFR32MG14P632F256GM32+iar, EFR32MG14P632F256GM48+iar, EFR32MG14P732F256GM32+iar, EFR32MG14P732F256GM48+iar, EFR32MG14P732F256IM32+iar, EFR32MG14P732F256IM48+iar, EFR32MG14P733F256GM48+iar, EFR32MG14P733F256IM48+iar, EFR32BG13P632F512IM32+gcc, EFR32BG13P632F512IM48+gcc, EFR32BG14P532F256GM32+gcc, EFR32BG14P532F256GM48+gcc, EFR32BG14P632F256GM32+gcc, EFR32BG14P632F256GM48+gcc, EFR32BG14P632F256IM32+gcc, EFR32BG14P632F256IM48+gcc, EFR32BG14P732F256GM32+gcc, EFR32BG14P732F256GM48+gcc, EFR32BG14P733F256GM48+gcc, EFR32FG13P231F512IM32+gcc, EFR32FG13P231F512IM48+gcc, EFR32FG14V132F256GM32+gcc, EFR32FG14V132F256GM48+gcc, EFR32MG12P433F1024GM68+gcc, EFR32MG13P732F512IM32+gcc, EFR32MG13P732F512IM48+gcc, EFR32MG13P733F512IM48+gcc, EFR32MG13P832F512GM48+gcc, EFR32MG13P832F512IM48+gcc, EFR32MG13P932F512GM48+gcc, EFR32MG13P932F512IM48+gcc, EFR32MG14P632F256GM32+gcc, EFR32MG14P632F256GM48+gcc, EFR32MG14P732F256GM32+gcc, EFR32MG14P732F256GM48+gcc, EFR32MG14P732F256IM32+gcc, EFR32MG14P732F256IM48+gcc, EFR32MG14P733F256GM48+gcc, EFR32MG14P733F256IM48+gcc] in framework flex
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-02-23 19:43:46.428
+!MESSAGE Unknown board 'BRD4105A' in framework flex
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-02-23 19:43:46.428
+!MESSAGE Unknown board 'BRD4165A' in framework flex
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-02-23 19:43:46.428
+!MESSAGE Unknown board 'BRD4165B' in framework flex
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-02-23 19:43:46.428
+!MESSAGE Unknown board 'BRD4169A' in framework flex
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-02-23 19:43:46.428
+!MESSAGE Unknown board 'BRD4169B' in framework flex
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-02-23 19:43:46.429
+!MESSAGE Unknown board 'BRD4170A' in framework flex
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-02-23 19:43:46.429
+!MESSAGE Unknown board 'BRD4305A' in framework flex
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-02-23 19:43:46.429
+!MESSAGE Unknown board 'BRD4305C' in framework flex
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-02-23 19:43:46.429
+!MESSAGE Unknown board 'BRD4305D' in framework flex
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-02-23 19:43:46.429
+!MESSAGE Unknown board 'BRD4305E' in framework flex
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-02-23 19:43:46.527
+!MESSAGE No capability active_scan found for Sniffer
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-02-23 19:43:46.590
+!MESSAGE Not a valid ISC file: /home/mortzula/SimplicityStudio_v4/developer/sdks/gecko_sdk_suite/v1.1/protocol/flex_1.2/connect/rail/sample-apps/rangetest/rangetest.isc
+!STACK 0
+java.lang.Exception
+	at com.silabs.java.utils.ExceptionUtils.newMinimalStackException(ExceptionUtils.java:29)
+	at com.ember.workbench.app_framework.sampleapp.SampleAppReader.processAppBlock(SampleAppReader.java:410)
+	at com.ember.workbench.app_framework.sampleapp.SampleAppReader.readSampleApps(SampleAppReader.java:178)
+	at com.ember.workbench.app_framework.application.Framework.sampleAppsInfo(Framework.java:833)
+	at com.silabs.ss.app.internal.api.ide.demos.EsfDemoDetector.addDemoDescriptors(EsfDemoDetector.java:74)
+	at com.silabs.ss.app.internal.api.ide.demos.EsfDemoDetector.quickScan(EsfDemoDetector.java:50)
+	at com.silabs.ss.platform.api.content.core.registry.BaseDetector.doDetectDescriptors(BaseDetector.java:59)
+	at com.silabs.ss.platform.api.content.core.registry.BaseDetector.detectDescriptors(BaseDetector.java:43)
+	at com.silabs.ss.platform.api.content.core.registry.BaseRegistry.detectDescriptors(BaseRegistry.java:677)
+	at ... extra clipped....(Unknown Source)
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-02-23 19:43:46.649
+!MESSAGE Unknown architecture(s) [BRD4165B] in sample app RAIL: Range Test - PHY: 250k, 2gfsk, base
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-02-23 19:43:46.676
+!MESSAGE Unknown architecture(s) [efr32bg14p732f256gm48+brd4105a+gcc, efr32bg14p732f256gm48+brd4105a+iar, efr32mg13p832f512im48+brd4165b+gcc, efr32mg13p832f512im48+brd4165b+iar, efr32mg14p733f256gm48+brd4169a+gcc, efr32mg14p733f256gm48+brd4169a+iar, efr32mg14p733f256gm48+brd4169b+gcc, efr32mg14p733f256gm48+brd4169b+iar, efr32bg13p732f512gm51+brd4305a+gcc, efr32bg13p732f512gm51+brd4305a+iar, efr32bg13p632f512gm51+brd4305c+gcc, efr32bg13p632f512gm51+brd4305c+iar, efr32mg13p632f512gm51+brd4305d+gcc, efr32mg13p632f512gm51+brd4305d+iar, efr32mg13p732f512gm51+brd4305e+gcc, efr32mg13p732f512gm51+brd4305e+iar] in sample app NCP target - Empty
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-02-23 19:43:46.715
+!MESSAGE Unknown architecture(s) [efr32bg14p732f256gm48+brd4105a+iar, efr32mg13p832f512im48+brd4165b+iar, efr32mg14p733f256gm48+brd4169a+iar, efr32mg14p733f256gm48+brd4169b+iar, efr32bg13p732f512gm51+brd4305a+iar, efr32bg13p632f512gm51+brd4305c+iar, efr32mg13p632f512gm51+brd4305d+iar, efr32mg13p732f512gm51+brd4305e+iar] in sample app NCP target - Switched Multiprotocol Trust Center
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-02-23 19:43:46.725
+!MESSAGE Unknown architecture(s) [efr32bg14p732f256gm48+brd4105a+gcc, efr32bg14p732f256gm48+brd4105a+iar, efr32mg13p832f512im48+brd4165b+gcc, efr32mg13p832f512im48+brd4165b+iar, efr32mg14p733f256gm48+brd4169a+gcc, efr32mg14p733f256gm48+brd4169a+iar, efr32mg14p733f256gm48+brd4169b+gcc, efr32mg14p733f256gm48+brd4169b+iar, efr32bg13p732f512gm51+brd4305a+gcc, efr32bg13p732f512gm51+brd4305a+iar, efr32bg13p632f512gm51+brd4305c+gcc, efr32bg13p632f512gm51+brd4305c+iar, efr32mg13p632f512gm51+brd4305d+gcc, efr32mg13p632f512gm51+brd4305d+iar, efr32mg13p732f512gm51+brd4305e+gcc, efr32mg13p732f512gm51+brd4305e+iar] in sample app SOC - DTM
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-02-23 19:43:46.789
+!MESSAGE Unknown architecture(s) [efr32bg14p732f256gm48+brd4105a+gcc, efr32bg14p732f256gm48+brd4105a+iar, efr32mg13p832f512im48+brd4165b+gcc, efr32mg13p832f512im48+brd4165b+iar, efr32mg14p733f256gm48+brd4169a+gcc, efr32mg14p733f256gm48+brd4169a+iar, efr32mg14p733f256gm48+brd4169b+gcc, efr32mg14p733f256gm48+brd4169b+iar, efr32bg13p732f512gm51+brd4305a+gcc, efr32bg13p732f512gm51+brd4305a+iar, efr32bg13p632f512gm51+brd4305c+gcc, efr32bg13p632f512gm51+brd4305c+iar, efr32mg13p632f512gm51+brd4305d+gcc, efr32mg13p632f512gm51+brd4305d+iar, efr32mg13p732f512gm51+brd4305e+gcc, efr32mg13p732f512gm51+brd4305e+iar] in sample app SOC - Smart Phone App
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-02-23 19:43:46.818
+!MESSAGE Unknown architecture(s) [efr32bg14p732f256gm48+brd4105a+iar, efr32mg14p733f256gm48+brd4169a+iar, efr32mg14p733f256gm48+brd4169b+iar, efr32bg13p732f512gm51+brd4305a+iar, efr32bg13p632f512gm51+brd4305c+iar, efr32mg13p632f512gm51+brd4305d+iar, efr32mg13p732f512gm51+brd4305e+iar] in sample app SOC - Switched Multiprotocol Joining Device
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-02-23 19:43:46.828
+!MESSAGE Unknown architecture(s) [efr32bg14p732f256gm48+brd4105a+gcc, efr32bg14p732f256gm48+brd4105a+iar, efr32mg13p832f512im48+brd4165b+gcc, efr32mg13p832f512im48+brd4165b+iar, efr32mg14p733f256gm48+brd4169a+gcc, efr32mg14p733f256gm48+brd4169a+iar, efr32mg14p733f256gm48+brd4169b+gcc, efr32mg14p733f256gm48+brd4169b+iar, efr32bg13p732f512gm51+brd4305a+gcc, efr32bg13p732f512gm51+brd4305a+iar, efr32bg13p632f512gm51+brd4305c+gcc, efr32bg13p632f512gm51+brd4305c+iar, efr32mg13p632f512gm51+brd4305d+gcc, efr32mg13p632f512gm51+brd4305d+iar, efr32mg13p732f512gm51+brd4305e+gcc, efr32mg13p732f512gm51+brd4305e+iar] in sample app SOC - Thermometer
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-02-23 19:43:46.957
+!MESSAGE Unknown architecture(s) [BRD4165B, BRD4170A, BRD4169B, BRD4169A, BRD4105A, BRD4305A, BRD4305C, BRD4305D, BRD4305E] in sample app RAIL: Range Test
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-02-23 19:43:46.959
+!MESSAGE Unknown architecture(s) [BRD4165B, BRD4170A, BRD4169B, BRD4169A, BRD4105A, BRD4305A, BRD4305C, BRD4305D, BRD4305E] in sample app RAIL: Range Test - PHY: 250k, 2gfsk, base
+
+!ENTRY com.silabs.foundation.core_rcp 1 0 2018-02-23 19:43:47.231
+!MESSAGE EXPLICIT: entry removed in Demos cache for Hardware {
+  board=brd4104a:0.0.0.A00
+  part=mcu.arm.efr32.bg13.efr32bg13p632f512gm48
+  sdk=com.silabs.sdk.stack.super:1.1.1._-786607985
+}
+
+!ENTRY com.silabs.foundation.core_rcp 1 0 2018-02-23 19:44:01.190
+!MESSAGE EXPLICIT: entry removed in Examples cache for (Hardware {
+  board=brd4104a:0.0.0.A00
+  part=mcu.arm.efr32.bg13.efr32bg13p632f512gm48
+  sdk=com.silabs.sdk.stack.super:1.1.1._-786607985
+}, simplicity-ide)
+
+!ENTRY com.silabs.ss.platform.content.core 4 0 2018-02-23 19:44:05.730
+!MESSAGE Local timestamp file does not exist: /home/mortzula/SimplicityStudio_v4/offline/common/Simplicity_Studio_Terms_of_Use_and_Privacy_Statement.timestamp
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-02-23 19:44:13.718
+!MESSAGE Indexed 'bootloader-uart-bgapi' (0 sources, 0 headers) in 0.003 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.silabs.ss.framework.ide.project.core.cpp 2 0 2018-02-23 19:44:21.066
+!MESSAGE Adding library object as split of library search path and library name. This may cause build errors!
+!STACK 0
+java.lang.Exception
+	at com.silabs.java.utils.ExceptionUtils.newMinimalStackException(ExceptionUtils.java:29)
+	at com.silabs.ss.framework.ide.internal.api.project.core.cpp.CppBuildConfigBuildSettings.addLibraryObject(CppBuildConfigBuildSettings.java:395)
+	at com.silabs.ss.framework.ide.internal.project.core.cpp.CppProjectEngineOperationHandler.handleAddLibraryFileSettingOperation(CppProjectEngineOperationHandler.java:226)
+	at com.silabs.ss.framework.project.api.core.engine.operations.AddLibraryFileSettingOperation.executeProcess(AddLibraryFileSettingOperation.java:55)
+	at com.silabs.ss.framework.project.internal.core.engine.ProjectModelEngine.queueProjectOperations(ProjectModelEngine.java:946)
+	at com.silabs.ss.framework.project.api.core.utils.ProjectUpdateUtils.doUpdateBuildConfigFromModel(ProjectUpdateUtils.java:245)
+	at com.silabs.ss.framework.project.api.core.utils.ProjectUpdateUtils.doUpdateProjectFromModel(ProjectUpdateUtils.java:189)
+	at com.silabs.ss.framework.project.api.core.utils.ProjectUpdateUtils.updateProjectFromModel(ProjectUpdateUtils.java:167)
+	at com.silabs.ss.app.internal.ide.generation.StudioProjectGenerationItem.writeInWorkspace(StudioProjectGenerationItem.java:85)
+	at ... extra clipped....(Unknown Source)
+
+!ENTRY com.silabs.foundation.core_rcp 1 0 2018-02-23 19:44:23.569
+!MESSAGE Generation successful!
+
+
+Files generated:
+   /home/mortzula/Workspace/ble_iop/Firmware/bootloader-uart-bgapi/./bootloader-slot-configuration.h
+   /home/mortzula/Workspace/ble_iop/Firmware/bootloader-uart-bgapi/./bootloader-callbacks.h
+   /home/mortzula/Workspace/ble_iop/Firmware/bootloader-uart-bgapi/./bootloader-callback-stubs.c
+   /home/mortzula/Workspace/ble_iop/Firmware/bootloader-uart-bgapi/./bootloader-callbacks.c
+   /home/mortzula/Workspace/ble_iop/Firmware/bootloader-uart-bgapi/./bootloader-configuration.h
+   /home/mortzula/Workspace/ble_iop/Firmware/bootloader-uart-bgapi/./bootloader-uart-bgapi_postbuild.sh
+
+Files always updated:
+   /home/mortzula/Workspace/ble_iop/Firmware/bootloader-uart-bgapi
+

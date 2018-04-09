@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.3">
+<eagle version="8.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -24,25 +24,25 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -184,6 +184,141 @@
 <rectangle x1="-2.0516" y1="2.2828" x2="-1.8484" y2="3.121" layer="51"/>
 <circle x="-3.175" y="-2.4892" radius="0.254" width="0" layer="21"/>
 </package>
+<package name="PX2QFN14_RUC">
+<smd name="IN4" x="0.25" y="1.95" dx="0.2" dy="0.68" layer="1" rot="R180" stop="no"/>
+<smd name="COM4" x="1.05" y="1.95" dx="0.2" dy="0.68" layer="1" rot="R180" stop="no"/>
+<smd name="COM3" x="1.45" y="1.95" dx="0.2" dy="0.68" layer="1" rot="R180" stop="no"/>
+<smd name="NO1" x="0.25" y="0.15" dx="0.2" dy="0.68" layer="1" rot="R180" stop="no"/>
+<smd name="COM1" x="0.65" y="0.15" dx="0.2" dy="0.68" layer="1" rot="R180" stop="no"/>
+<smd name="NO2" x="1.05" y="0.15" dx="0.2" dy="0.68" layer="1" rot="R180" stop="no"/>
+<smd name="COM2" x="1.45" y="0.15" dx="0.2" dy="0.68" layer="1" rot="R180" stop="no"/>
+<smd name="IN2" x="1.85" y="0.15" dx="0.2" dy="0.68" layer="1" rot="R180" stop="no"/>
+<smd name="IN1" x="0.175" y="1.275" dx="0.2" dy="0.68" layer="1" rot="R90" stop="no"/>
+<smd name="GND" x="1.95" y="1.25" dx="0.2" dy="0.68" layer="1" rot="R90" stop="no"/>
+<smd name="IN3" x="1.95" y="0.85" dx="0.2" dy="0.68" layer="1" rot="R90" stop="no"/>
+<smd name="VCC" x="0.175" y="0.825" dx="0.2" dy="0.68" layer="1" rot="R90" stop="no"/>
+<smd name="NO3" x="1.85" y="1.95" dx="0.2" dy="0.68" layer="1" rot="R180" stop="no"/>
+<smd name="NO4" x="0.65" y="1.95" dx="0.2" dy="0.68" layer="1" rot="R180" stop="no"/>
+<polygon width="0.05" layer="29">
+<vertex x="-0.2" y="1.35"/>
+<vertex x="-0.2" y="1.4"/>
+<vertex x="0.55" y="1.4"/>
+<vertex x="0.55" y="1.15"/>
+<vertex x="-0.2" y="1.15"/>
+<vertex x="-0.2" y="1.4"/>
+</polygon>
+<polygon width="0.05" layer="29">
+<vertex x="-0.2" y="0.9"/>
+<vertex x="-0.2" y="0.95"/>
+<vertex x="0.55" y="0.95"/>
+<vertex x="0.55" y="0.7"/>
+<vertex x="-0.2" y="0.7"/>
+<vertex x="-0.2" y="0.95"/>
+</polygon>
+<polygon width="0.05" layer="29">
+<vertex x="0.175" y="-0.225"/>
+<vertex x="0.125" y="-0.225"/>
+<vertex x="0.125" y="0.525"/>
+<vertex x="0.375" y="0.525"/>
+<vertex x="0.375" y="-0.225"/>
+<vertex x="0.125" y="-0.225"/>
+</polygon>
+<polygon width="0.05" layer="29">
+<vertex x="1.775" y="1.575"/>
+<vertex x="1.725" y="1.575"/>
+<vertex x="1.725" y="2.325"/>
+<vertex x="1.975" y="2.325"/>
+<vertex x="1.975" y="1.575"/>
+<vertex x="1.725" y="1.575"/>
+</polygon>
+<polygon width="0.05" layer="29">
+<vertex x="0.575" y="-0.225"/>
+<vertex x="0.525" y="-0.225"/>
+<vertex x="0.525" y="0.525"/>
+<vertex x="0.775" y="0.525"/>
+<vertex x="0.775" y="-0.225"/>
+<vertex x="0.525" y="-0.225"/>
+</polygon>
+<polygon width="0.05" layer="29">
+<vertex x="1.775" y="-0.225"/>
+<vertex x="1.725" y="-0.225"/>
+<vertex x="1.725" y="0.525"/>
+<vertex x="1.975" y="0.525"/>
+<vertex x="1.975" y="-0.225"/>
+<vertex x="1.725" y="-0.225"/>
+</polygon>
+<polygon width="0.05" layer="29">
+<vertex x="1.575" y="0.925"/>
+<vertex x="1.575" y="0.975"/>
+<vertex x="2.325" y="0.975"/>
+<vertex x="2.325" y="0.725"/>
+<vertex x="1.575" y="0.725"/>
+<vertex x="1.575" y="0.975"/>
+</polygon>
+<polygon width="0.05" layer="29">
+<vertex x="0.975" y="-0.225"/>
+<vertex x="0.925" y="-0.225"/>
+<vertex x="0.925" y="0.525"/>
+<vertex x="1.175" y="0.525"/>
+<vertex x="1.175" y="-0.225"/>
+<vertex x="0.925" y="-0.225"/>
+</polygon>
+<polygon width="0.05" layer="29">
+<vertex x="1.375" y="-0.225"/>
+<vertex x="1.325" y="-0.225"/>
+<vertex x="1.325" y="0.525"/>
+<vertex x="1.575" y="0.525"/>
+<vertex x="1.575" y="-0.225"/>
+<vertex x="1.325" y="-0.225"/>
+</polygon>
+<polygon width="0.05" layer="29">
+<vertex x="1.575" y="1.325"/>
+<vertex x="1.575" y="1.375"/>
+<vertex x="2.325" y="1.375"/>
+<vertex x="2.325" y="1.125"/>
+<vertex x="1.575" y="1.125"/>
+<vertex x="1.575" y="1.375"/>
+</polygon>
+<polygon width="0.05" layer="29">
+<vertex x="0.175" y="1.575"/>
+<vertex x="0.125" y="1.575"/>
+<vertex x="0.125" y="2.325"/>
+<vertex x="0.375" y="2.325"/>
+<vertex x="0.375" y="1.575"/>
+<vertex x="0.125" y="1.575"/>
+</polygon>
+<polygon width="0.05" layer="29">
+<vertex x="0.575" y="1.575"/>
+<vertex x="0.525" y="1.575"/>
+<vertex x="0.525" y="2.325"/>
+<vertex x="0.775" y="2.325"/>
+<vertex x="0.775" y="1.575"/>
+<vertex x="0.525" y="1.575"/>
+</polygon>
+<polygon width="0.05" layer="29">
+<vertex x="0.975" y="1.575"/>
+<vertex x="0.925" y="1.575"/>
+<vertex x="0.925" y="2.325"/>
+<vertex x="1.175" y="2.325"/>
+<vertex x="1.175" y="1.575"/>
+<vertex x="0.925" y="1.575"/>
+</polygon>
+<polygon width="0.05" layer="29">
+<vertex x="1.375" y="1.575"/>
+<vertex x="1.325" y="1.575"/>
+<vertex x="1.325" y="2.325"/>
+<vertex x="1.575" y="2.325"/>
+<vertex x="1.575" y="1.575"/>
+<vertex x="1.325" y="1.575"/>
+</polygon>
+<wire x1="0.025" y1="2.075" x2="2.075" y2="2.075" width="0.05" layer="51"/>
+<wire x1="2.075" y1="0" x2="2.075" y2="2.05" width="0.05" layer="51"/>
+<wire x1="2.075" y1="0" x2="0.025" y2="0" width="0.05" layer="51"/>
+<wire x1="0.025" y1="2.075" x2="0.025" y2="0.025" width="0.05" layer="51"/>
+<circle x="-0.225" y="-0.165" radius="0.0901375" width="0.05" layer="21"/>
+<text x="-0.65" y="2.525" size="0.5" layer="25" font="vector"> &gt;NAME</text>
+<text x="-0.725" y="-0.975" size="0.5" layer="27" font="vector"> &gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="4-CH_SPST_ANALOG_SWITCH">
@@ -243,6 +378,34 @@
 <connect gate="G$1" pin="NO3" pad="8"/>
 <connect gate="G$1" pin="NO4" pad="11"/>
 <connect gate="G$1" pin="VCC" pad="14"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="4-CH_ANALOG_SWITCH_RUC">
+<gates>
+<gate name="G$1" symbol="4-CH_SPST_ANALOG_SWITCH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PX2QFN14_RUC">
+<connects>
+<connect gate="G$1" pin="COM1" pad="COM1"/>
+<connect gate="G$1" pin="COM2" pad="COM2"/>
+<connect gate="G$1" pin="COM3" pad="COM3"/>
+<connect gate="G$1" pin="COM4" pad="COM4"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="IN1" pad="IN1"/>
+<connect gate="G$1" pin="IN2" pad="IN2"/>
+<connect gate="G$1" pin="IN3" pad="IN3"/>
+<connect gate="G$1" pin="IN4" pad="IN4"/>
+<connect gate="G$1" pin="NO1" pad="NO1"/>
+<connect gate="G$1" pin="NO2" pad="NO2"/>
+<connect gate="G$1" pin="NO3" pad="NO3"/>
+<connect gate="G$1" pin="NO4" pad="NO4"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
 </connects>
 <technologies>
 <technology name=""/>

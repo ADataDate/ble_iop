@@ -1,0 +1,44 @@
+Silicon Labs   PBA: BRD4302A  PCB: PCB4302
+
+Board/PCB Manufacturing Files:
+
+PCB4302A_A03_pcb_spec.pdf          PCB Specification            (Acrobat)
+PCB4302A_A03.GM8                   Board Outline                (X-Gerber)
+PCB4302A_A03.GTL                   PCB Layer 1  Top             (X-Gerber)
+PCB4302A_A03.G1                    PCB Layer 2  Inner           (X-Gerber)
+PCB4302A_A03.G2                    PCB Layer 3  Inner           (X-Gerber)
+PCB4302A_A03.GBL                   PCB Layer 6  Bot             (X-Gerber)
+PCB4302A_A03.GTS                   Solder Mask  Top             (X-Gerber)
+PCB4302A_A03.GBS                   Solder Mask  Bot             (X-Gerber)
+PCB4302A_A03.GM9                   Silk/Mark    Top             (X-Gerber)
+PCB4302A_A03.GM10                  Silk/Mark    Bot             (X-Gerber)
+PCB4302A_A03.DRL                   Drill data                   (Excellon)
+PCB4302A_A03.DRR                   Drill Report                 (Text)
+PCB4302A_A03.GPV                   Via Plugging                 (X-Gerber)
+
+######################################################################################
+# ECAD information:
+#
+# =============================================================================
+# Silicon Labs - HW Tools Team
+# =============================================================================
+# 
+# Personnel, phone numbers etc:
+#
+# Telephone                       +36-1-453-4250
+# Telefax                         +36-1-240-1056
+#
+#
+# Tamas Bodi         tamas.bodi@silabs.com       1) +36-1-453-4283
+#
+#
+# 1) Applications Engineering Manager
+#
+#
+# Silicon Laboratories Hungary ltd.
+# Graphisoft Park, Building HX
+# 1031 Budapest, Zahony u. 7.
+# Hungary
+#
+#
+#####################################################################################

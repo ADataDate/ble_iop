@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="8.7.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="DFN-6">
+<smd name="GND" x="0" y="0" dx="1.6" dy="2.5" layer="1"/>
+<smd name="P$2" x="-1.45" y="0" dx="0.45" dy="0.85" layer="1" roundness="75" rot="R90" stop="no" thermals="no" cream="no"/>
+<smd name="P$1" x="-1.45" y="1.024" dx="0.45" dy="0.85" layer="1" roundness="75" rot="R90" stop="no" thermals="no" cream="no"/>
+<smd name="P$3" x="-1.462" y="-1.023" dx="0.45" dy="0.85" layer="1" roundness="75" rot="R90" stop="no" thermals="no" cream="no"/>
+<smd name="P$4" x="1.438" y="-1.023" dx="0.45" dy="0.85" layer="1" roundness="75" rot="R90" stop="no" thermals="no" cream="no"/>
+<smd name="P$5" x="1.444" y="0.003" dx="0.45" dy="0.85" layer="1" roundness="75" rot="R90" stop="no" thermals="no" cream="no"/>
+<smd name="P$6" x="1.442" y="1.027" dx="0.45" dy="0.85" layer="1" roundness="75" rot="R90" stop="no" thermals="no" cream="no"/>
+<polygon width="0.1" layer="29">
+<vertex x="-1.75" y="1.25"/>
+<vertex x="-1.220709375" y="1.25" curve="-45"/>
+<vertex x="-1.1" y="1.2"/>
+<vertex x="-1.08535625" y="1.18535625" curve="-45"/>
+<vertex x="-1.05" y="1.1"/>
+<vertex x="-1.05" y="0.95" curve="-45.001049"/>
+<vertex x="-1.08535625" y="0.86464375"/>
+<vertex x="-1.11464375" y="0.83535625" curve="-45"/>
+<vertex x="-1.2" y="0.8"/>
+<vertex x="-1.694" y="0.798"/>
+<vertex x="-1.77064375" y="0.82864375" curve="-45"/>
+<vertex x="-1.85" y="0.95"/>
+<vertex x="-1.85" y="1.05" curve="-44.999476"/>
+<vertex x="-1.779290625" y="1.220709375"/>
+</polygon>
+<polygon width="0.1" layer="29">
+<vertex x="-1.753" y="0.22"/>
+<vertex x="-1.223709375" y="0.22" curve="-45"/>
+<vertex x="-1.103" y="0.17"/>
+<vertex x="-1.08835625" y="0.15535625" curve="-45"/>
+<vertex x="-1.053" y="0.07"/>
+<vertex x="-1.053" y="-0.08" curve="-45.001049"/>
+<vertex x="-1.08835625" y="-0.16535625"/>
+<vertex x="-1.11764375" y="-0.19464375" curve="-45"/>
+<vertex x="-1.203" y="-0.23"/>
+<vertex x="-1.753" y="-0.23"/>
+<vertex x="-1.81764375" y="-0.16535625" curve="-45"/>
+<vertex x="-1.853" y="-0.08"/>
+<vertex x="-1.853" y="0.02" curve="-44.999476"/>
+<vertex x="-1.782290625" y="0.190709375"/>
+</polygon>
+<polygon width="0.1" layer="29">
+<vertex x="1.143" y="0.217"/>
+<vertex x="1.672290625" y="0.217" curve="-45"/>
+<vertex x="1.793" y="0.167"/>
+<vertex x="1.80764375" y="0.15235625" curve="-45"/>
+<vertex x="1.843" y="0.067"/>
+<vertex x="1.843" y="-0.083" curve="-45.001049"/>
+<vertex x="1.80764375" y="-0.16835625"/>
+<vertex x="1.77835625" y="-0.19764375" curve="-45"/>
+<vertex x="1.693" y="-0.233"/>
+<vertex x="1.143" y="-0.233"/>
+<vertex x="1.07835625" y="-0.16835625" curve="-45"/>
+<vertex x="1.043" y="-0.083"/>
+<vertex x="1.043" y="0.017" curve="-44.999476"/>
+<vertex x="1.113709375" y="0.187709375"/>
+</polygon>
+<polygon width="0.1" layer="29">
+<vertex x="1.143" y="1.254"/>
+<vertex x="1.672290625" y="1.254" curve="-45"/>
+<vertex x="1.793" y="1.204"/>
+<vertex x="1.80764375" y="1.18935625" curve="-45"/>
+<vertex x="1.843" y="1.104"/>
+<vertex x="1.843" y="0.954" curve="-45.001049"/>
+<vertex x="1.80764375" y="0.86864375"/>
+<vertex x="1.77835625" y="0.83935625" curve="-45"/>
+<vertex x="1.693" y="0.804"/>
+<vertex x="1.143" y="0.804"/>
+<vertex x="1.07835625" y="0.86864375" curve="-45"/>
+<vertex x="1.043" y="0.954"/>
+<vertex x="1.043" y="1.054" curve="-44.999476"/>
+<vertex x="1.113709375" y="1.224709375"/>
+</polygon>
+<polygon width="0.1" layer="29">
+<vertex x="-1.764" y="-0.793"/>
+<vertex x="-1.234709375" y="-0.793" curve="-45"/>
+<vertex x="-1.114" y="-0.843"/>
+<vertex x="-1.09935625" y="-0.85764375" curve="-45"/>
+<vertex x="-1.064" y="-0.943"/>
+<vertex x="-1.064" y="-1.093" curve="-45.001049"/>
+<vertex x="-1.09935625" y="-1.17835625"/>
+<vertex x="-1.12864375" y="-1.20764375" curve="-45"/>
+<vertex x="-1.214" y="-1.243"/>
+<vertex x="-1.764" y="-1.243"/>
+<vertex x="-1.82864375" y="-1.17835625" curve="-45"/>
+<vertex x="-1.864" y="-1.093"/>
+<vertex x="-1.864" y="-0.993" curve="-44.999476"/>
+<vertex x="-1.793290625" y="-0.822290625"/>
+</polygon>
+<polygon width="0.1" layer="29">
+<vertex x="1.134" y="-0.801"/>
+<vertex x="1.663290625" y="-0.801" curve="-45"/>
+<vertex x="1.784" y="-0.851"/>
+<vertex x="1.79864375" y="-0.86564375" curve="-45"/>
+<vertex x="1.834" y="-0.951"/>
+<vertex x="1.834" y="-1.101" curve="-45.001049"/>
+<vertex x="1.79864375" y="-1.18635625"/>
+<vertex x="1.76935625" y="-1.21564375" curve="-45"/>
+<vertex x="1.684" y="-1.251"/>
+<vertex x="1.134" y="-1.251"/>
+<vertex x="1.06935625" y="-1.18635625" curve="-45"/>
+<vertex x="1.034" y="-1.101"/>
+<vertex x="1.034" y="-1.001" curve="-44.999476"/>
+<vertex x="1.104709375" y="-0.830290625"/>
+</polygon>
+<polygon width="0.1" layer="31">
+<vertex x="-1.736" y="1.201"/>
+<vertex x="-1.220709375" y="1.2" curve="-45"/>
+<vertex x="-1.1" y="1.15" curve="-45"/>
+<vertex x="-1.075" y="1.08964375"/>
+<vertex x="-1.075" y="0.9699125" curve="-45"/>
+<vertex x="-1.111" y="0.883" curve="-45"/>
+<vertex x="-1.193084375" y="0.849"/>
+<vertex x="-1.699584375" y="0.849" curve="-45"/>
+<vertex x="-1.702" y="0.85"/>
+<vertex x="-1.7090875" y="0.85" curve="-45"/>
+<vertex x="-1.796" y="0.886" curve="-45"/>
+<vertex x="-1.828" y="0.96325625"/>
+<vertex x="-1.828" y="1.066" curve="-44.999064"/>
+<vertex x="-1.776403125" y="1.180596875"/>
+</polygon>
+<polygon width="0.1" layer="31">
+<vertex x="1.154" y="-0.84"/>
+<vertex x="1.669290625" y="-0.841" curve="-45"/>
+<vertex x="1.79" y="-0.891" curve="-45"/>
+<vertex x="1.815" y="-0.95135625"/>
+<vertex x="1.815" y="-1.0710875" curve="-45"/>
+<vertex x="1.779" y="-1.158" curve="-45"/>
+<vertex x="1.696915625" y="-1.192"/>
+<vertex x="1.190415625" y="-1.192" curve="-45"/>
+<vertex x="1.188" y="-1.191"/>
+<vertex x="1.1809125" y="-1.191" curve="-45"/>
+<vertex x="1.094" y="-1.155" curve="-45"/>
+<vertex x="1.062" y="-1.07774375"/>
+<vertex x="1.062" y="-0.975" curve="-44.999064"/>
+<vertex x="1.113596875" y="-0.860403125"/>
+</polygon>
+<polygon width="0.1" layer="31">
+<vertex x="-1.74" y="0.181"/>
+<vertex x="-1.224709375" y="0.18" curve="-45"/>
+<vertex x="-1.104" y="0.13" curve="-45"/>
+<vertex x="-1.079" y="0.06964375"/>
+<vertex x="-1.079" y="-0.0500875" curve="-45"/>
+<vertex x="-1.115" y="-0.137" curve="-45"/>
+<vertex x="-1.197084375" y="-0.171"/>
+<vertex x="-1.703584375" y="-0.171" curve="-45"/>
+<vertex x="-1.706" y="-0.17"/>
+<vertex x="-1.7130875" y="-0.17" curve="-45"/>
+<vertex x="-1.8" y="-0.134" curve="-45"/>
+<vertex x="-1.832" y="-0.05674375"/>
+<vertex x="-1.832" y="0.046" curve="-44.999064"/>
+<vertex x="-1.780403125" y="0.160596875"/>
+</polygon>
+<polygon width="0.1" layer="31">
+<vertex x="1.159" y="0.187"/>
+<vertex x="1.674290625" y="0.186" curve="-45"/>
+<vertex x="1.795" y="0.136" curve="-45"/>
+<vertex x="1.82" y="0.07564375"/>
+<vertex x="1.82" y="-0.0440875" curve="-45"/>
+<vertex x="1.784" y="-0.131" curve="-45"/>
+<vertex x="1.701915625" y="-0.165"/>
+<vertex x="1.195415625" y="-0.165" curve="-45"/>
+<vertex x="1.193" y="-0.164"/>
+<vertex x="1.1859125" y="-0.164" curve="-45"/>
+<vertex x="1.099" y="-0.128" curve="-45"/>
+<vertex x="1.067" y="-0.05074375"/>
+<vertex x="1.067" y="0.052" curve="-44.999064"/>
+<vertex x="1.118596875" y="0.166596875"/>
+</polygon>
+<polygon width="0.1" layer="31">
+<vertex x="-1.75" y="-0.843"/>
+<vertex x="-1.234709375" y="-0.844" curve="-45"/>
+<vertex x="-1.114" y="-0.894" curve="-45"/>
+<vertex x="-1.089" y="-0.95435625"/>
+<vertex x="-1.089" y="-1.0740875" curve="-45"/>
+<vertex x="-1.125" y="-1.161" curve="-45"/>
+<vertex x="-1.207084375" y="-1.195"/>
+<vertex x="-1.713584375" y="-1.195" curve="-45"/>
+<vertex x="-1.716" y="-1.194"/>
+<vertex x="-1.7230875" y="-1.194" curve="-45"/>
+<vertex x="-1.81" y="-1.158" curve="-45"/>
+<vertex x="-1.842" y="-1.08074375"/>
+<vertex x="-1.842" y="-0.978" curve="-44.999064"/>
+<vertex x="-1.790403125" y="-0.863403125"/>
+</polygon>
+<polygon width="0.1" layer="31">
+<vertex x="1.155" y="1.211"/>
+<vertex x="1.670290625" y="1.21" curve="-45"/>
+<vertex x="1.791" y="1.16" curve="-45"/>
+<vertex x="1.816" y="1.09964375"/>
+<vertex x="1.816" y="0.9799125" curve="-45"/>
+<vertex x="1.78" y="0.893" curve="-45"/>
+<vertex x="1.697915625" y="0.859"/>
+<vertex x="1.191415625" y="0.859" curve="-45"/>
+<vertex x="1.189" y="0.86"/>
+<vertex x="1.1819125" y="0.86" curve="-45"/>
+<vertex x="1.095" y="0.896" curve="-45"/>
+<vertex x="1.063" y="0.97325625"/>
+<vertex x="1.063" y="1.076" curve="-44.999064"/>
+<vertex x="1.114596875" y="1.190596875"/>
+</polygon>
+</package>
+</packages>
+<symbols>
+<symbol name="SI7021_TEMP_HUMIDITY">
+<wire x1="0" y1="0" x2="0" y2="25.4" width="0.254" layer="97"/>
+<wire x1="0" y1="25.4" x2="25.4" y2="25.4" width="0.254" layer="97"/>
+<wire x1="25.4" y1="25.4" x2="25.4" y2="0" width="0.254" layer="97"/>
+<wire x1="25.4" y1="0" x2="0" y2="0" width="0.254" layer="97"/>
+<pin name="SDA" x="-5.08" y="20.32" length="middle"/>
+<pin name="GND" x="-5.08" y="12.7" length="middle"/>
+<pin name="DNC" x="-5.08" y="5.08" length="middle"/>
+<pin name="DNC2" x="30.48" y="5.08" length="middle" rot="R180"/>
+<pin name="VDD" x="30.48" y="12.7" length="middle" rot="R180"/>
+<pin name="SCL" x="30.48" y="20.32" length="middle" rot="R180"/>
+<text x="5.08" y="27.94" size="2.286" layer="95" font="vector">&gt;NAME</text>
+<text x="5.08" y="-5.08" size="2.286" layer="96" font="vector">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SI7021_TEMP_HUMIDTY">
+<gates>
+<gate name="G$1" symbol="SI7021_TEMP_HUMIDITY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DFN-6">
+<connects>
+<connect gate="G$1" pin="DNC" pad="P$3"/>
+<connect gate="G$1" pin="DNC2" pad="P$4"/>
+<connect gate="G$1" pin="GND" pad="GND P$2"/>
+<connect gate="G$1" pin="SCL" pad="P$6"/>
+<connect gate="G$1" pin="SDA" pad="P$1"/>
+<connect gate="G$1" pin="VDD" pad="P$5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
